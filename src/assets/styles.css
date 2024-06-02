@@ -27,6 +27,17 @@ body {
   border-radius: 5px;
   text-align: center;
   flex-shrink: 0;
+  height: 200px;
+  margin-left: 32px;
+}
+.title-card img {
+  width: 100%;
+  border-radius: 5px;
+} 
+.title-card:hover {
+  transform: scale(1.15); 
+  z-index: 2; 
+   outline: 2px solid rgb(230, 77, 77); 
 }
 
 .NewOnNetflix .title-card{
@@ -84,12 +95,23 @@ button:focus {
   outline: 2px solid #0056b3;
 }
 
-.swim-lane__header {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
+@media screen and (max-width: 600px){
+  .swim-lane__header{
+    font-size: 15px;
+  }
 
-.title-card img {
-  width: 100%;
-  border-radius: 5px;
+  .top10Movies .title-card {
+  
+    width: 150px;
+    height: 150px;
+  }
+
+  .NewOnNetflix .title-card{
+    width: 150px;
+    height: 130px;
+  }
+  .USTVShows .title-card{
+    width: 150px;
+    height: 130px;
+  }
 }

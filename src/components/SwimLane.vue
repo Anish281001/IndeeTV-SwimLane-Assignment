@@ -92,14 +92,5 @@ export default {
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.title-card:hover ~ .title-card,
-.title-card:hover ~ .title-card + .title-card {
-  filter: brightness(0.5); /* Darken effect */
-  /* Or use filter: blur(3px); for blur effect */
-}
-.title-card:hover ~ .title-card ~ .title-card,
-.title-card:hover ~ .title-card ~ .title-card + .title-card {
-  filter: brightness(0.5); /* Darken effect */
-  /* Or use filter: blur(3px); for blur effect */
-}
+
 </style>

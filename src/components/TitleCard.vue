@@ -28,24 +28,4 @@ export default {
   font-weight: bold;
 }
 
-.title-card {
-  height: 200px;
-  margin-left: 32px;
-}
-.title-card:hover {
-  transform: scale(1.2); 
-  z-index: 2; 
-   outline: 2px solid rgb(230, 77, 77); 
-}
-
-.title-card:hover ~ .title-card,
-.title-card:hover ~ .title-card + .title-card {
-  filter: brightness(0.5); /* Darken effect */
-  /* Or use filter: blur(3px); for blur effect */
-}
-.title-card:hover ~ .title-card ~ .title-card,
-.title-card:hover ~ .title-card ~ .title-card + .title-card {
-  filter: brightness(0.5); /* Darken effect */
-  /* Or use filter: blur(3px); for blur effect */
-}
 </style>
