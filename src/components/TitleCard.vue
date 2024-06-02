@@ -36,4 +36,8 @@ export default {
 .title-card:focus {
   outline: 2px solid whitesmoke; /* Focus indicator */
 }
+.title-card:hover {
+  transform: scale(1.1); /* Zoom effect */
+  z-index: 2; /* Bring the card to the front */
+}
 </style>
