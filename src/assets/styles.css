@@ -100,19 +100,16 @@ button:focus {
     width: 150px;
     height: 150px;
     margin-left: 10px;
-    margin-right: 1px;
   }
 
   .NewOnNetflix .title-card{
     width: 150px;
     height: 130px;
     margin-left: 10px;
-    margin-right: 1px;
   }
   .USTVShows .title-card{
     width: 150px;
     height: 130px;
-    margin-left: 10px;
-    margin-right: 1px;
+    margin-left: 8px;
   }
 }

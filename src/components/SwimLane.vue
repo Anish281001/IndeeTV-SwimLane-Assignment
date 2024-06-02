@@ -94,7 +94,7 @@ export default {
 }
 @media screen and (max-width: 480px){
   .swim-lane__header{
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
