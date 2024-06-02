@@ -92,5 +92,10 @@ export default {
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media screen and (max-width: 480px){
+  .swim-lane__header{
+    font-size: 8px;
+  }
+}
 
 </style>
