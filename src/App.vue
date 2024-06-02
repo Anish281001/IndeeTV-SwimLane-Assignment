@@ -6,7 +6,7 @@
       className="NewOnNetflix"
     />
     <SwimLane
-      header="Top 10 Movies"
+      header="Top 10 Movies in India Today"
       :cards="top10Movies"
       className="top10Movies"
     />
