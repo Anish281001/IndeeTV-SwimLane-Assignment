@@ -99,17 +99,17 @@ button:focus {
   .top10Movies .title-card {
     width: 150px;
     height: 150px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   .NewOnNetflix .title-card{
     width: 150px;
     height: 130px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
   .USTVShows .title-card{
     width: 150px;
     height: 130px;
-    margin-left: 8px;
+    margin-left: 6px;
   }
 }
