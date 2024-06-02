@@ -97,7 +97,7 @@ button:focus {
 
 @media screen and (max-width: 600px){
   .swim-lane__header{
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .top10Movies .title-card {
