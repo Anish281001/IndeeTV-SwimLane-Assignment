@@ -42,7 +42,7 @@ The `styles.css` file contains the styling for the various components of our Ass
 
 
 *Screenshot:*
-[Photo](https://drive.google.com/file/d/1GPXcTAdH_5LsVe-izjuH0KCNrkbJE3tQ/view?usp=sharing)
+[Photo](https://drive.google.com/file/d/1N1-cATpMAxTcCh4sRQyknaLwV-TMGoT7/view?usp=sharing)
 *Live Demo:*
 [Demo Video](https://drive.google.com/file/d/1ce_siiBNgjXTQg6I1v8qMigjo7V63HmE/view?usp=sharing)
 ```
