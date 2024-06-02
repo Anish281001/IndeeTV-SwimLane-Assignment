@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.swim-lane{
+  position: relative;
+  overflow: hidden;
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.swim-lane__container {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.title-card {
+  display: inline-block;
+  width: 220px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 5px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.NewOnNetflix .title-card{
+  height: 165px;
+}
+.USTVShows .title-card{
+  height: 165px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  width: calc(100% - 40px); 
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.swim-lane:hover .controls {
+  opacity: 1;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 20%;
+  pointer-events: auto;
+  position: absolute;
+}
+
+button.left {
+  left: 10px;
+  margin-left: 25px;
+}
+
+button.right {
+  right: 10px;
+  margin-right: -5px;
+}
+
+button:disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}
+
+button:focus {
+  outline: 2px solid #0056b3;
+}
+
+.swim-lane__header {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.title-card img {
+  width: 100%;
+  border-radius: 5px;
+}
