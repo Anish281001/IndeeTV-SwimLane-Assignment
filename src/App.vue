@@ -1,9 +1,9 @@
 <template>
   <div>
     <SwimLane
-      header="New On Netflix"
-      :cards="NewOnNetflix"
-      className="NewOnNetflix"
+      header="New Arrivals"
+      :cards="NewArrivals"
+      className="NewArrivals"
     />
     <SwimLane
       header="Top 10 Movies in India Today"
@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      NewOnNetflix: [
+      NewArrivals: [
         { title: "Family Of Two", image: "/new1.PNG" },
         { title: "Charging Card", image: "/new2.PNG" },
         { title: "Pilecki's Report", image: "/new3.PNG" },

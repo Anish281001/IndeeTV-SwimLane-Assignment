@@ -40,7 +40,7 @@ body {
    outline: 2px solid rgb(230, 77, 77); 
 }
 
-.NewOnNetflix .title-card{
+.NewArrivals .title-card{
   height: 165px;
 }
 .USTVShows .title-card{
@@ -102,7 +102,7 @@ button:focus {
     margin-left: 6px;
   }
 
-  .NewOnNetflix .title-card{
+  .NewArrivals .title-card{
     width: 160px;
     height: 130px;
     margin-left: 6px;
