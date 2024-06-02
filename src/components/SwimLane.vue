@@ -74,12 +74,10 @@ export default {
     },
   mounted() {
     this.updateContainerWidth();
-    window.addEventListener('resize', this.updateContainerWidth);
-   
+    window.addEventListener('resize', this.updateContainerWidth);  
   },
   beforeDestroy() {
     window.removeEventListener('resize', this.updateContainerWidth);
-   
   }
 };
 </script>

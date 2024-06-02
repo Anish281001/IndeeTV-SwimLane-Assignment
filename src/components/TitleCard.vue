@@ -32,12 +32,13 @@ export default {
   height: 200px;
   margin-left: 32px;
 }
-
+/* 
 .title-card:focus {
-  outline: 2px solid whitesmoke; /* Focus indicator */
-}
+  outline: 2px solid whitesmoke; 
+} */
 .title-card:hover {
-  transform: scale(1.1); /* Zoom effect */
-  z-index: 2; /* Bring the card to the front */
+  transform: scale(1.2); 
+  z-index: 2; 
+   outline: 2px solid whitesmoke; 
 }
 </style>
