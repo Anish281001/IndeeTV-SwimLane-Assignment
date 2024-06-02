@@ -11,9 +11,9 @@ The objective of this assignment is to evaluate proficiency in HTML, CSS, and Ja
 ### Elements included in the Swim-Lane:
 
 1. **Swim-Lane:** Three swimlanes are present to showcase multiple title cards for different movies/shows/series.
-2. **Title Cards:** It is used to showcase a particular ovies/shows/series in a swimlane.
+2. **Title Card:** This is used to showcase a particular Movies/shows/series in a swimlane.
 3. **Scroll Left Button:** Allows users to scroll horizontally on left side of the swim lane.
-4. **Scroll Right Button:**  Allows users to scroll horizontally on right side of the swim lane
+4. **Scroll Right Button:**  Allows users to scroll horizontally on right side of the swim lane.
 
  ## Usage
 
