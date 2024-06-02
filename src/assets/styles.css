@@ -97,18 +97,18 @@ button:focus {
 
 @media screen and (max-width: 480px){
   .top10Movies .title-card {
-    width: 150px;
+    width: 160px;
     height: 150px;
     margin-left: 6px;
   }
 
   .NewOnNetflix .title-card{
-    width: 150px;
+    width: 160px;
     height: 130px;
     margin-left: 6px;
   }
   .USTVShows .title-card{
-    width: 150px;
+    width: 160px;
     height: 130px;
     margin-left: 6px;
   }
